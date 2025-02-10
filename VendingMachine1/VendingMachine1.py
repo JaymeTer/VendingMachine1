@@ -22,7 +22,7 @@ def vend_item(selection, items):  # Uses the item list
 
 def main():
     """Main function to run the vending machine simulation."""
-    items = ["Cola", "Chips", "Candy", "Water"]  # Now you can easily add more!
+    items = ["Cola", "Chips", "Candy", "Water" , "Beer" , "Gummies" , "Pistol" , "Grenade"]  # Now you can easily add more!
     display_menu(items)
     selection = get_user_selection(len(items))
     vend_item(selection, items)
